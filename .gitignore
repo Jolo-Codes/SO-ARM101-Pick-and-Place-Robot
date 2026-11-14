@@ -1,0 +1,18 @@
+#Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+#Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+#IDEs and Editors
+.idea/
+*.iml
+*.iws
+.vscode/
