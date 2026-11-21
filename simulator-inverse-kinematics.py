@@ -76,7 +76,7 @@ def solve_3dof_ik(target_x, target_y, target_z, effector_offset, link1_length, l
 def calculate_elbow_angle(intermediate_term_2, link1_length, intermediate_term_1, shoulder_angle):
     return math.atan2(intermediate_term_2-link1_length*math.sin(shoulder_angle),intermediate_term_1-link1_length*math.cos(shoulder_angle)) - shoulder_angle
 
-mujoco.viewer.launch()
+mujoco.viewer.launch(model,data)
 
 
 
